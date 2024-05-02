@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/textfile">
+        <file>WorldWar2Questions.txt</file>
+    </qresource>
+</RCC>
