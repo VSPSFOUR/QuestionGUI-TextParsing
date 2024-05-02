@@ -32,6 +32,10 @@
       <height>51</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Question</string>
     </property>
@@ -50,6 +54,10 @@
       <width>311</width>
       <height>18</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>QuestionType</string>
@@ -83,6 +91,10 @@
          <property name="autoFillBackground">
           <bool>false</bool>
          </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Option1</string>
          </property>
@@ -99,6 +111,10 @@
        </item>
        <item>
         <widget class="QRadioButton" name="option2RadioButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Option2</string>
          </property>
@@ -109,6 +125,10 @@
        </item>
        <item>
         <widget class="QRadioButton" name="option3RadioButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Option3</string>
          </property>
@@ -116,6 +136,10 @@
        </item>
        <item>
         <widget class="QRadioButton" name="option4RadioButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Option4</string>
          </property>
@@ -168,6 +192,10 @@
        <property name="enabled">
         <bool>true</bool>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+       </property>
        <property name="text">
         <string>Cheat</string>
        </property>
@@ -190,6 +218,10 @@
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QPushButton" name="submitButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Submit</string>
          </property>
@@ -200,6 +232,10 @@
        </item>
        <item>
         <widget class="QPushButton" name="previousButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Previous</string>
          </property>
@@ -207,6 +243,10 @@
        </item>
        <item>
         <widget class="QPushButton" name="nextButton">
+         <property name="styleSheet">
+          <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+         </property>
          <property name="text">
           <string>Next</string>
          </property>
@@ -241,6 +281,10 @@
       <height>29</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
     <property name="text">
      <string>Grade Quiz</string>
     </property>
@@ -263,6 +307,10 @@
       <width>111</width>
       <height>24</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Index Change</string>

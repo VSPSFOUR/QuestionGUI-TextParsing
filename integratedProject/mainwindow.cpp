@@ -278,8 +278,8 @@ void MainWindow::assignQuestionData(Question question){
 void MainWindow::applyStyleSheetToRadioButtons()
 {
 
-    QString styleSheet = "QRadioButton{ border: 1px solid black; border-radius: 7px;padding:5px; }"
-                         "QRadioButton::indicator { width: 0; height: 0; } "
+    QString styleSheet = "QRadioButton{ border: 1px solid black; border-radius: 7px;padding:5px; color:#000000; }"
+                         "QRadioButton::indicator { width: 0; height: 0;  } "
                          "QRadioButton::checked {background-color: #51829B; }";
 
     QList<QRadioButton*> radioButtons = findChildren<QRadioButton*>();
@@ -293,7 +293,7 @@ void MainWindow::applyStyleSheetToRadioButtons()
 void MainWindow::applyStyleSheetToPushButtons()
 {
 
-    QString styleSheet = "QPushButton{ border: 1px solid black; border-radius: 7px;padding:5px; }"
+    QString styleSheet = "QPushButton{ border: 1px solid black; border-radius: 7px;padding:5px;  color:#000000;}"
                          "QPushButton::indicator { width: 0; height: 0; } "
                          "QPushButton::checked {background-color: #51829B; }"
                          "QPushButton:hover {background-color: #D0D0D0;}";
@@ -319,13 +319,11 @@ void MainWindow::changeProgresssBar(){
 // applies a color based on user answer
 void MainWindow::applyAnswerStyleSheet(bool isCorrect){
     Question currentQuestion = testGroup.getQuestion();
-    QString correctStyleSheet = "QRadioButton{ border: 1px solid black; border-radius: 7px;padding:5px; }"
-                                "QRadioButton::indicator { width: 0; height: 0; } "
-                                "QRadioButton{background-color: #BACD92;}";
+    QString correctStyleSheet = "QRadioButton{ border: 1px solid black; border-radius: 7px;padding:5px;  color:#000000;background-color: #BACD92;}"
+                                "QRadioButton::indicator { width: 0; height: 0; } " ;
 
-    QString incorrectStyleSheet = "QRadioButton{ border: 1px solid black; border-radius: 7px;padding:5px; }"
-                                  "QRadioButton::indicator { width: 0; height: 0; } "
-                                  "QRadioButton{background-color: #DD5746;}";
+    QString incorrectStyleSheet = "QRadioButton{ border: 1px solid black; border-radius: 7px;padding:5px; color:#000000;background-color: #DD5746; }"
+                                  "QRadioButton::indicator { width: 0; height: 0; } ";
     QString currentStyleSheet = incorrectStyleSheet;
     if(isCorrect){
         currentStyleSheet = correctStyleSheet;
